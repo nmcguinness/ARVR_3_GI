@@ -8,7 +8,7 @@ namespace GD.Lighting
     {
         [SerializeField]
         [Tooltip("Select how often the reflection probe will be updated (e.g. once every 1, 2, 4, 8, or 16 frames)")]
-        private TickRateMultiplierType tickRate = TickRateMultiplierType.Sixteen;
+        private TickRateMultiplierType tickRate = TickRateMultiplierType.Two;
 
         private ReflectionProbe reflectionProbe;
 
